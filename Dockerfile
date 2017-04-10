@@ -21,4 +21,4 @@ EXPOSE 80
 WORKDIR $SERVER_ROOT/Dedicated\ Server/Linux
 ADD serverconfig.txt .
 
-#ENTRYPOINT ["./TerrariaServer.bin.x86_64", "-config", "serverconfig.txt"]
+ENTRYPOINT ["./TerrariaServer.bin.x86_64", "-config", "serverconfig.txt"]
