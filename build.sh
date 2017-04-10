@@ -1,5 +1,5 @@
 docker rm -f terraria
-docker rmi terraria
-docker build -t terraria .
-docker run -p 80:80 --name terraria -v $(pwd)/worlds:/worlds -it terraria
+docker rmi duncanandrew/terraria
+docker build -t duncanandrew/terraria .
+docker run -p 7777:7777 --name terraria -v $(pwd)/worlds:/worlds -it duncanandrew/terraria
 #ctrl+p ctrl+q to detach

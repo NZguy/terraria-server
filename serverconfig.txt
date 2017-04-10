@@ -39,7 +39,7 @@ difficulty=1
 maxplayers=8
 
 #Set the port number
-port=80
+port=7777
 
 #Set the server password
 #password=p@55w0rd

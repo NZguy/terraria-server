@@ -1,7 +1,5 @@
 FROM ubuntu:latest
 
-MAINTAINER Christian Oelsner <c.oelsner@web.de>
-
 RUN apt-get update && apt-get install -y zip wget && apt-get clean 
 
 ENV SERVER_VERSION=1344 \
@@ -16,7 +14,7 @@ RUN wget -q http://terraria.org/server/terraria-server-$SERVER_VERSION.zip -O $S
   && chmod a+x TerrariaServer*
 
 VOLUME ["/world"]
-EXPOSE 80
+EXPOSE 7777
 
 WORKDIR $SERVER_ROOT/Dedicated\ Server/Linux
 ADD serverconfig.txt .
