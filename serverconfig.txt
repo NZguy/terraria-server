@@ -33,19 +33,19 @@ world=/worlds/world.wld
 #worldname=Terraria
 
 #Sets the difficulty of the world when using autocreate 0(normal), 1(expert)
-#difficulty=1
+difficulty=1
 
 #Sets the max number of players allowed on a server.  Value must be between 1 and 255
-#maxplayers=8
+maxplayers=8
 
 #Set the port number
-#port=7777
+port=80
 
 #Set the server password
 #password=p@55w0rd
 
 #Set the message of the day
-#motd=Please don�t cut the purple trees!
+motd=Hi
 
 #Sets the folder where world files will be stored
 worldpath=/worlds
